@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/AA/Escenas/Automata2D.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
