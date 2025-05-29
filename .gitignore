@@ -1,0 +1,28 @@
+# Archivos y carpetas que Unity genera automáticamente y no deben subirse
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+UserSettings/
+MemoryCaptures/
+
+# IDEs
+.vscode/
+.vs/
+*.csproj
+*.sln
+*.user
+*.unityproj
+
+# Otros
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.ide
+*.apk
+*.aab
