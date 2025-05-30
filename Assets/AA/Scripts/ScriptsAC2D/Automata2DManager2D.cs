@@ -55,7 +55,7 @@ public class Automata2DManager : MonoBehaviour
             for (int y = 0; y < height; y++)
             {
                 GameObject cellObj = Instantiate(cellPrefab, gridParent);
-                cellObj.transform.localPosition = new Vector3(x * 0.2f, -y * 0.2f, 0);
+                cellObj.transform.localPosition = new Vector3(x * 0.6f, -y * 0.6f, 0);
 
                 Cell2D cell = cellObj.AddComponent<Cell2D>();
                 cell.x = x;
