@@ -1,4 +1,4 @@
-# Archivos y carpetas que Unity genera automáticamente y no deben subirse
+# --- Carpetas que Unity genera automáticamente ---
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -7,15 +7,18 @@
 UserSettings/
 MemoryCaptures/
 
-# IDEs
+# --- Cache de VS y otros editores ---
 .vscode/
 .vs/
+.idea/
+
+# --- Archivos de solución de Visual Studio y Rider ---
 *.csproj
 *.sln
+*.suo
+*.tmp
 *.user
 *.unityproj
-
-# Otros
 *.pidb
 *.booproj
 *.svd
@@ -24,5 +27,44 @@ MemoryCaptures/
 *.opendb
 *.VC.db
 *.ide
+
+# --- Archivos de paquetes o builds ---
 *.apk
 *.aab
+*.zip
+*.tar.gz
+*.exe
+*.app
+
+# --- Logs y backups ---
+*.log
+*.bak
+*.tmp
+*.diff
+*.patch
+
+# --- Archivos de Unity Cloud Build ---
+sysinfo.txt
+
+# --- Archivos de sistema (macOS, Windows) ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Evitar que se ignoren archivos esenciales del proyecto ---
+!Assets/
+!Assets/**/*.cs
+!Assets/**/*.unity
+!Assets/**/*.prefab
+!Assets/**/*.mat
+!Assets/**/*.meta
+!Assets/**/*.asset
+!Assets/**/*.shader
+!Assets/**/*.png
+!Assets/**/*.jpg
+!Assets/**/*.jpeg
+!Assets/**/*.wav
+!Assets/**/*.mp3
+!Assets/**/*.ttf
+!Assets/**/*.json
+
